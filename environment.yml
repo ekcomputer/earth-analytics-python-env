@@ -1,4 +1,6 @@
 name: earth-analytics-python
+# referenced https://github.com/albarji/teaching-environments/blob/master/ensembles/environment.yml
+
 channels:
   - conda-forge
   - defaults
@@ -6,6 +8,7 @@ channels:
 dependencies:
   - python=3.8
   - pip
+  
   # Core scientific python
   - numpy
   - matplotlib
@@ -13,7 +16,11 @@ dependencies:
   - seaborn
   - tqdm
   - kiwisolver
+  - pandas
 
+  # Machine learning
+  - scikit-learn
+  
   # Spatial packages
   #- rasterio
   - pysal
@@ -39,8 +46,8 @@ dependencies:
   - regionmask
 
   # Natural language processing
-  - nltk
-  - textblob
+  #- nltk
+  #- textblob
 
   # Jupyter Environment
   - papermill
@@ -51,6 +58,7 @@ dependencies:
   - jupyter_contrib_nbextensions
   - nbclean
   - nbresuse
+  
   # Autograding
   - matplotcheck>=0.1.2
   - nbgrader
