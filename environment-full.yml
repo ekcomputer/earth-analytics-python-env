@@ -1,5 +1,6 @@
 name: earth-analytics-python
 # referenced https://github.com/albarji/teaching-environments/blob/master/ensembles/environment.yml
+# https://github.com/manjillama/machine-learning-101/blob/master/INSTALLATION.md
 
 channels:
   - conda-forge
