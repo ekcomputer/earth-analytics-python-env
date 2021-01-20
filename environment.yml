@@ -1,0 +1,33 @@
+name: earthml
+# referenced https://github.com/albarji/teaching-environments/blob/master/ensembles/environment.yml
+# https://github.com/manjillama/machine-learning-101/blob/master/INSTALLATION.md
+
+channels:
+  - defaults
+  - conda-forge
+  
+dependencies:
+  - python=3.8
+  - pip
+  
+  # Core scientific python
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - scipy
+  
+  # Machine learning
+  - scikit-learn
+  
+  # Jupyter Environment - maybe installs/enables some notebook extentions
+  - papermill
+  - autopep8
+  - jupyterlab
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - nbclean
+  - nbresuse
+  - nb_conda_kernels
+
